@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+.counter-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 50px;
+  letter-spacing: 0.5px;
+}
+
+.counter-value{
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+button{
+  background-color: white;
+  border: transparent;
+  size: 5rem;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px;
+}
